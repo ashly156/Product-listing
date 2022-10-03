@@ -1,0 +1,37 @@
+.searchInputs {
+    display: flex;
+    background-color: #ECECEC;
+    border-radius: 8px;
+  }
+  .title{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #30384d;
+  }
+  
+  .search input {
+    background-color: #ECECEC;
+    font-size: 0.8em;
+    color:#7e8a9a;
+    border: 0;
+    font-size: 18px;
+    padding: 15px;
+    height: 30px;
+    width: 300px;
+  }
+  
+  .searchIcon {
+    height: 60px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  .searchIcon svg {
+    font-size: 35px;
+  }
+  
+  
